@@ -12,8 +12,8 @@ from datetime import datetime
 load_dotenv()
 WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
 
-st.set_page_config(page_title="Weather Dashboard", page_icon="🌤", layout="wide")
-st.title("🌤 Weather Dashboard")
+st.set_page_config(page_title="HorizonCast", page_icon="🌤", layout="wide")
+st.title("🌤 HorizonCast")
 
 # ─── SQLite Setup ─────────────────────────────────────────────
 # Creates weather.db in your project folder automatically
